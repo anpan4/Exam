@@ -10,7 +10,7 @@
 	</div>
 </div>
 
-<div class="touroku"><a href="">新規登録</a></div>
+<div class="touroku"><a href="CreateExecute.action">新規登録</a></div>
 <table class="table" border="1">
 			<thead>
 				<tr>
@@ -29,7 +29,7 @@
 						<td>${subject.cd}</td>
 						<td>${subject.name}</td>
 						<td>
-							<a href="">変更</a>
+							<a href="SubjectUpdateExecute.Action">変更</a>
 						</td>
 						<td>
 							<a href="">削除</a>
